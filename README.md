@@ -1,11 +1,11 @@
 # AuE893-Deep-Learning-Application-in-Engineering
 AuE 8930 Course Repository
 
-## Mini Project 1
+# Mini Project 1
 1. Use of Numpy library
 2. Use of Pandas Library
 
-## Mini Project 2
+# Mini Project 2
 
 ### Problem Description
 This data was collected in 1978 and each of the 506 entries represents aggregate information about homes from various suburbs located in Boston. Once you get a good fit, you can use this model to predict the monetary value of a house located at the Boston’s area. A model like this would be very valuable for a real state agent who could make use of the information provided in a dayly basis.
@@ -42,7 +42,7 @@ input_size = 13
 
 ![image](https://user-images.githubusercontent.com/79803663/156498707-87ecd09c-2162-4d4b-b448-986bc4a35728.png)
 
-## Mini Project 3
+# Mini Project 3
 
 ### Build a Convolutional Neural Network to classify objects and tune hyperparameters to optimize your model.
 
@@ -62,8 +62,20 @@ input_size = 13
 
 <img width="265" alt="image" src="https://user-images.githubusercontent.com/79803663/162352660-25919db1-6c53-41f6-83d2-5fa2b26815d4.png">
 
+# Mini Project 4
+
+## Build an RNN model to classify text and an LSTM model for anomaly detection (also outlier detection) on the temperature sensor data. 
+
+### Task 1: Text Classification
+
+This task aims to train a sentiment analysis model to classify given sentences as positive or negative, based on the Recurrent Neural Network.
 
 
 
+### Task 2: Anomaly Detection
+
+In manufacturing industries, the anomaly detection technique is applied to predict the abnormal activities of machines based on the data read from sensors. In machine learning and data mining, anomaly detection is the task of identifying the rare items, events, or observations that are suspicious and seem different from the majority of the data. In this task, you will predict the possible failure of the system based on the temperature data. And this failure can be detected by check if they follow the trend of the majority of the data.
+
+The given dataset (ambient_temperature_system_failure.csv) is a part of Numenta Anomaly Benchmark (NAB) dataset, which is a novel benchmark for evaluating machine learning algorithms in anomaly detection.
 
 
