@@ -44,6 +44,12 @@ input_size = 13
 
 # Mini Project 3
 
+TensorFlow 2.x is use to implement NNs.
+Code should follow PEP 8 with necessary comments.
+
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/79803663/163599869-026d8e5d-2094-49e1-8847-88783971070f.png">
+
+
 ### Build a Convolutional Neural Network to classify objects and tune hyperparameters to optimize your model.
 
 ### Task 1: Load and Pre-Process Dataset
@@ -64,11 +70,28 @@ input_size = 13
 
 # Mini Project 4
 
+TensorFlow 2.x is allowed to implement models.
+Code should follow PEP 8 with necessary comments.
+
 ## Build an RNN model to classify text and an LSTM model for anomaly detection (also outlier detection) on the temperature sensor data. 
 
 ### Task 1: Text Classification
 
 This task aims to train a sentiment analysis model to classify given sentences as positive or negative, based on the Recurrent Neural Network.
+
+Train Data
+
+<img width="774" alt="image" src="https://user-images.githubusercontent.com/79803663/163600510-d4f26462-349b-4f6c-afc5-6367550eaeae.png">
+
+Test Data
+
+<img width="712" alt="image" src="https://user-images.githubusercontent.com/79803663/163600556-eec33b92-d8de-4aa0-a66c-37159e164079.png">
+
+Result -
+
+Predicted labels and texts saved in .csv format.
+
+![image](https://user-images.githubusercontent.com/79803663/163600643-20ad6dbf-edfd-4b00-b4a4-ed7c97540a82.png)
 
 
 
@@ -77,5 +100,19 @@ This task aims to train a sentiment analysis model to classify given sentences a
 In manufacturing industries, the anomaly detection technique is applied to predict the abnormal activities of machines based on the data read from sensors. In machine learning and data mining, anomaly detection is the task of identifying the rare items, events, or observations that are suspicious and seem different from the majority of the data. In this task, you will predict the possible failure of the system based on the temperature data. And this failure can be detected by check if they follow the trend of the majority of the data.
 
 The given dataset (ambient_temperature_system_failure.csv) is a part of Numenta Anomaly Benchmark (NAB) dataset, which is a novel benchmark for evaluating machine learning algorithms in anomaly detection.
+
+Input Timeseries Data -
+
+<img width="871" alt="image" src="https://user-images.githubusercontent.com/79803663/163600976-7b334448-363f-4c1d-8842-4e37df95ebae.png">
+
+This reconstruction error threshold value then we will label this data point as an anomaly
+
+![image](https://user-images.githubusercontent.com/79803663/163601269-fed679c1-b272-4477-bb8a-e7b78ff5d89f.png)
+
+Visualizing anomalies (Red Dots)
+
+![image](https://user-images.githubusercontent.com/79803663/163601065-c22a49e4-a2ce-4a54-880a-f1b211a0001d.png)
+
+
 
 
